@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class softassertionstests {
+public class SoftAssertionsTests {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
@@ -15,7 +15,7 @@ public class softassertionstests {
     }
 
     @Test
-    void softassertionstesting() {
+    void softAssertionsJUnitTest() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-box button").click();
