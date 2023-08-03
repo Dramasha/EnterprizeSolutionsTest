@@ -32,6 +32,5 @@ public class DragAndDrop {
         $("#column-b").shouldHave(text("a"));
 
 
-        sleep(3000);
     }
 }
