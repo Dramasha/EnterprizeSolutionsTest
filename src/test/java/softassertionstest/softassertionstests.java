@@ -1,16 +1,13 @@
 package softassertionstest;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.conditions.Text;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class TextBoxTests {
+public class softassertionstests {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
@@ -18,7 +15,7 @@ public class TextBoxTests {
     }
 
     @Test
-    void SoftAssertionsJUnitTest() {
+    void softassertionstesting() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-box button").click();
