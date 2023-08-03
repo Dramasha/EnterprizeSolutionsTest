@@ -18,7 +18,7 @@ public class TextBoxTests {
     }
 
     @Test
-    void fillFormTest() {
+    void SoftAssertionsJUnitTest() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-box button").click();
@@ -36,9 +36,5 @@ public class TextBoxTests {
                 "  }\n" +
                 "}"));
 
-
-
-
-        sleep(3000);
     }
 }
