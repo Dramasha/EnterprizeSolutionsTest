@@ -1,6 +1,5 @@
 package dragAndDropTest;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeAll;
@@ -35,4 +34,4 @@ public class DragAndDrop {
 
         sleep(3000);
     }
-    }
+}
